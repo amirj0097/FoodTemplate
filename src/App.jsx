@@ -1,11 +1,11 @@
 
-import './App.css'
-
 
 function App() {
 
   return (
-      <div className=""></div>
+      <div className="w-[1439px] min-h-[5280px]">
+
+      </div>
   )
 }
 
