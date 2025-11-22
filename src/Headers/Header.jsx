@@ -6,7 +6,15 @@ export default function Header() {
     return (
 
 
-        <div className="w-full  items-center justify-end px-20 h-[120px] flex">
+        <div className="w-full  items-center justify-between px-20 h-[120px] flex">
+
+            <nav className="flex flex-row-reverse gap-8 text-[#888888]">
+                <a href="">Page</a>
+                <a href="">Blog</a>
+                <a href="">Shop</a>
+                <a href="">Category</a>
+                <a className="text-red-600" href="">Home +</a>
+            </nav>
 
             <div className="flex">
                 <div className="h-11 -mr-3 flex">
@@ -19,6 +27,7 @@ export default function Header() {
                     <a href=""><img src="src/icon/shop.svg" className="bg-[#E21A431A] p-3" alt="" /></a>
 
                 </div>
+
             </div>
 
         </div>
