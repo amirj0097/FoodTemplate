@@ -10,6 +10,10 @@ export default function Main() {
                 <img src="src/img/Title.svg" alt="" />
                 <img className="ml-5 mt-5" src="src/img/Text.svg" alt="" />
 
+                <div className="flex mr-auto ml-21 gap-6 mt-5">
+                    <a href="" className="bg-[#E21A43] text-white py-2 px-4">BUY NOW</a>
+                </div>
+
             </div>
 
 
