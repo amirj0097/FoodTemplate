@@ -1,4 +1,9 @@
 @font-face {
+    font-family: 'sofia';
+    src: url(font/Sofia\ Pro\ Bold\ Az.woff);
+}
+
+@font-face {
     font-family: 'modam';
     src: url(font/modam.ttf);
 }
