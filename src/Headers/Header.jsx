@@ -1,28 +1,28 @@
 
 
 
-export default function Header(){
+export default function Header() {
 
-    return(
-
-
-        <div className="w-full justify-end items-center px-20 h-[120px] flex">
+    return (
 
 
-            <div className="bg-amber-200 mr-5">
-                <input className="bg-amber-500" type="search" placeholder="Search..."/>
-                <span><img src="src/icon/Search.svg" alt="" /></span>
+        <div className="w-full  items-center justify-end px-20 h-[120px] flex">
+
+            <div className="flex">
+                <div className="h-11 -mr-3 flex">
+                    <input className="bg-[#E21A431A] w-40 pl-3 outline-none" type="search" placeholder="Search..." />
+                    <span><img className="px-3 h-full cursor-pointer bg-[#E21A43]" src="src/icon/Search.svg" alt="" /></span>
+                </div>
+
+                <div className="flex gap-3">
+                    <a href=""><img src="src/icon/user.svg" className="bg-[#E21A431A] px-3.5 p-3" alt="" /></a>
+                    <a href=""><img src="src/icon/shop.svg" className="bg-[#E21A431A] p-3" alt="" /></a>
+
+                </div>
             </div>
-          
-            <div className="flex gap-3">
-              <a href=""><img src="src/icon/user.svg" className="bg-[#E21A431A] px-3.5 p-3" alt="" /></a>
-              <a href=""><img src="src/icon/shop.svg" className="bg-[#E21A431A] p-3" alt="" /></a>
-
-            </div>
-
 
         </div>
-         
-        
+
+
     )
 }
