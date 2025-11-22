@@ -12,6 +12,7 @@ export default function Main() {
 
                 <div className="flex mr-auto ml-21 gap-6 mt-5">
                     <a href="" className="bg-[#E21A43] text-white py-2 px-4">BUY NOW</a>
+                    <a href="" className="text-[#E21A43] flex items-center py-2 px-4 border border-[#E21A43]">SEE MORE</a>
                 </div>
 
             </div>
