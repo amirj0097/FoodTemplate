@@ -11,7 +11,7 @@ export default function Header(){
 
             <div className="bg-amber-200 mr-5">
                 <input className="bg-amber-500" type="search" placeholder="Search..."/>
-                
+                <span><img src="src/icon/Search.svg" alt="" /></span>
             </div>
           
             <div className="flex gap-3">
