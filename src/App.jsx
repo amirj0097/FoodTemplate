@@ -10,7 +10,6 @@ function App() {
 
 
      <Header />
-       {/* <hr className="opacity-12"></hr>  */}
 
 
       <Main /> 
