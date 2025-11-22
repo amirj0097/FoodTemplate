@@ -6,14 +6,14 @@ function App() {
 
   return (
 
-    <div className="w-[1439px] text-right min-h-[5280px]">
+    <div className="w-full items-start  text-right min-h-[1280vh]">
 
 
-      <Header />
-      <hr className="w-[1671px]"></hr>
+     <Header />
+       <hr className=""></hr> 
 
 
-      <Main />
+      <Main /> 
 
     </div>
 
