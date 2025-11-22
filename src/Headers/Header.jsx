@@ -6,16 +6,16 @@ export default function Header() {
     return (
 
 
-        <header className="w-full  items-center justify-between px-20 h-[120px] flex">
+        <header className="w-full  items-center justify-between shadow-xs shadow-gray-200 px-20 h-[90px] flex">
 
-                <a href=""><img src="src/img/Logo.png" alt="" /></a>
+                <a href=""><img src="src/img/Logo.svg" alt="" /></a>
 
             <nav className="flex flex-row-reverse gap-8 text-[#888888]">
-                <a href="">Page</a>
-                <a href="">Blog</a>
-                <a href="">Shop</a>
-                <a href="">Category</a>
-                <a className="text-red-600 font-semibold" href="">Home +</a>
+                <a className="hover:text-red-600" href="">Page</a>
+                <a className="hover:text-red-600" href="">Blog</a>
+                <a className="hover:text-red-600" href="">Shop</a>
+                <a className="hover:text-red-600" href="">Category</a>
+                <a className="text-red-600 hover:text-red-600 font-semibold" href="">Home +</a>
             </nav>
 
             <div className="flex">
