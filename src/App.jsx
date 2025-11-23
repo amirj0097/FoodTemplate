@@ -1,5 +1,6 @@
 import Categories from "./Components/Categories";
 import Main from "./Components/Main1/Main";
+import Main2 from "./Components/Main2/Main";
 import Header from "./Headers/Header";
 
 function App() {
@@ -16,9 +17,7 @@ function App() {
 
       <Categories />
 
-      <div className="bg-[#F7F7F7] w-full h-900">
-        pijpo
-      </div>
+      <Main2 />
 
     </div>
 
