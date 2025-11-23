@@ -15,6 +15,7 @@ function App() {
       <div className="bg-blue-700 flex absolute w-1/2 left-auto right-auto px-6">
       <a href=""><img src="src/img/Sweets.svg" alt="Sweets" /></a>
       <a href=""><img src="src/img/Pasta.svg" alt="Pasta" /></a>
+      <a href=""><img src="src/img/Meat.svg" alt="Meat" /></a>
       </div>
 
     </div>
