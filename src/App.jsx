@@ -16,7 +16,8 @@ function App() {
       <a href=""><img src="src/img/Sweets.svg" alt="Sweets" /></a>
       <a href=""><img src="src/img/Pasta.svg" alt="Pasta" /></a>
       <a href=""><img src="src/img/Meat.svg" alt="Meat" /></a>
-      
+      <a href=""><img src="src/img/Bakery.svg" alt="Bakery" /></a>
+
       </div>
 
     </div>
