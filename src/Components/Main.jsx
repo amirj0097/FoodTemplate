@@ -3,7 +3,7 @@ export default function Main() {
 
 
     return (
-        <div className="w-full flex bg-amber-400  h-[650px] ">
+        <div className="w-full flex h-[650px] ">
 
 
 

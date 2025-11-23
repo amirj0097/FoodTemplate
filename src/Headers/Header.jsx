@@ -6,7 +6,7 @@ export default function Header() {
     return (
 
 
-        <header className="w-full  items-center justify-between shadow-xs shadow-gray-200 px-27 h-[90px] flex">
+        <header className="w-full  items-center justify-between shadow-xs shadow-[#f4f4f4]  px-27 h-[90px] flex">
 
                 <a href=""><img src="src/img/Logo.svg" alt="" /></a>
 
