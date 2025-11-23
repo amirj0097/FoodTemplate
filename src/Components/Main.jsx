@@ -5,6 +5,8 @@ export default function Main() {
     return (
         <div className="w-full flex  h-[715px] ">
 
+
+
             <div className="flex flex-col mt-15 w-1/2 ml-23 items-start   ">
                 <span className="-ml-3 absolute"><img className="" src="src/icon/Rang.svg" alt="" /></span>
                 <img src="src/img/Title.svg" alt="" />
@@ -20,8 +22,9 @@ export default function Main() {
 
 
 
-            <div className="w-1/2 flex justify-end items-center">
+            <div className="w-1/2 flex  justify-end items-center">
                 <span><img src="src/img/Sushee.svg" alt="" /></span>
+                <span><img className="bg-[#E21A43] py-5 top-100 bottom-auto px-6 right-8 absolute" src="src/icon/right.svg" alt="" /></span>
             </div>
 
 
