@@ -18,6 +18,7 @@ function App() {
       <a href=""><img src="src/img/Meat.svg" alt="Meat" /></a>
       <a href=""><img src="src/img/Bakery.svg" alt="Bakery" /></a>
       <a href=""><img src="src/img/Semi-finished.svg" alt="Semi-finished" /></a>
+      <a href=""><img src="src/img/Fruits.svg" alt="Fruits" /></a>
 
       </div>
 
