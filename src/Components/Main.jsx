@@ -3,7 +3,7 @@ export default function Main() {
 
 
     return (
-        <div className="w-full flex  h-[715px] ">
+        <div className="w-full flex bg-amber-400  h-[650px] ">
 
 
 
@@ -26,7 +26,7 @@ export default function Main() {
 
 
 
-            <div className="w-1/2 flex  justify-end items-center mb-10">
+            <div className="w-1/2 flex  justify-end items-center">
                 <span><img src="src/img/Sushee.svg" alt="" /></span>
                 <span><img className="bg-[#E21A43] cursor-pointer py-3.5 top-90 bottom-auto px-4.5 right-8 absolute" src="src/icon/right.svg" alt="" /></span>
             </div>

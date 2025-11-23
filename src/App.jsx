@@ -12,6 +12,9 @@ function App() {
 
 
       <Main /> 
+      <div className="bg-blue-700 absolute w-1/2 left-auto right-auto px-6">
+      <span><img src="src/img/Sweets.svg" alt="" /></span>
+      </div>
 
     </div>
 
