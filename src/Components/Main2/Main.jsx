@@ -25,6 +25,7 @@ export default function Main() {
             <div className="flex w-30 p-3 absolute justify-center mt-[235px] bg-amber-500">
 
              <a className="border-r-1 border-[#888888]" href=""> <img className="mr-2" src="src/img/+.svg" alt="" /></a>
+             <a className="border-r-1 border-[#888888]" href=""> <img className="mr-2" src="src/icon/charkhesh.svg" alt="" /></a>
 
             </div>
           </div>
