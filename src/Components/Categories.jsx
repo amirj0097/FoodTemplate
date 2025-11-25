@@ -2,7 +2,7 @@
 
 export default function Categories(){
     return(
-             <div className="flex flex-row-reverse absolute bg-white shadow-2xl shadow-gray-400 items-center justify-center gap-19 py-8 -mt-15 ml-50  w-[70%]  px-8">
+             <div className="flex flex-row-reverse absolute bg-white shadow-xl shadow-gray-3  00 items-center justify-center gap-19 py-8 -mt-15 ml-50  w-[70%]  px-8">
         <a href=""><img src="src/img/Sweets.svg" alt="Sweets" /></a>
         <a href=""><img src="src/img/Pasta.svg" alt="Pasta" /></a>
         <a href=""><img src="src/img/Meat.svg" alt="Meat" /></a>
