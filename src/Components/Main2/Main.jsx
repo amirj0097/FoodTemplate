@@ -22,9 +22,9 @@ export default function Main() {
 
           <div className="bg-white w-60 h-100 mt-20 flex justify-center  items-start">
             <img className="p-3" src="src/img/Noone.svg" alt="" />
-            <div className="flex w-20 absolute justify-center mt-[235px] bg-amber-500">
+            <div className="flex w-30 p-3 absolute justify-center mt-[235px] bg-amber-500">
 
-              
+             <a className="border-r-1 border-[#888888]" href=""> <img className="mr-2" src="src/img/+.svg" alt="" /></a>
 
             </div>
           </div>
