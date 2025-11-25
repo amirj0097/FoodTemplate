@@ -26,6 +26,7 @@ export default function Main() {
 
              <a className="border-r-1 border-[#888888]" href=""> <img className="mr-2" src="src/img/+.svg" alt="" /></a>
              <a className="border-r-1 border-[#888888]" href=""> <img className="mr-2" src="src/icon/charkhesh.svg" alt="" /></a>
+             <a className="border-r-1 border-[#888888]" href=""> <img className="mr-2" src="src/icon/Like.svg" alt="" /></a>
 
             </div>
           </div>
