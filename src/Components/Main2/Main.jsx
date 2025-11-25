@@ -14,7 +14,7 @@ export default function Main() {
             </div>
             <img src="src/img/Title-sarfasl.svg" alt="" />
             <div className="bg-[#E21A431A] mt-3 px-6.5 py-4">
-             <a href=""> <img src="src/img/Order Now.svg" alt="" /></a>
+             <a href=""> <img src="src/img/Order Now.svg" alt="Order Now" /></a>
             </div>
           </div>
 
