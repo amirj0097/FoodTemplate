@@ -7,7 +7,7 @@ export default function Poster2(){
         <img className="p-3" src='src/img/bastanee.svg' alt="" />
 
         <div className="absolute mt-70 w-50">
-          <img src='src/img/textnoone.svg' alt="" />
+          <img src='src/img/textbastanee.svg' alt="" />
         </div>
 
         <div className="flex w-50 absolute mt-76 gap-3">
