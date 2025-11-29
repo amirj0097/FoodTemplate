@@ -5,7 +5,7 @@ import Poster3 from "./Poster3"
 export default function ProductCard(){
   return (
 
-    <div className="flex  p-5 gap-15">
+    <div className="flex  gap-15">
 
       <div className="bg-white flex items-center justi flex-col  pb-7  p-3 w-70">
         <div className="flex">

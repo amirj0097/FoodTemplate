@@ -8,13 +8,13 @@ export default function Poster3(){
 
 
         <div className="absolute mt-70 w-50">
-          <img src='src/img/textnoone.svg' alt="" />
+          <img src='src/img/textcomboze.svg' alt="" />
         </div>
 
         <div className="flex w-50 absolute mt-76 gap-3">
-          <span className="line-through font-semibold">$40.00</span>
-          <span className="font-bold">$30.00</span>
-          <span>(1kg)</span>
+          <span className="line-through font-semibold">$45.00</span>
+          <span className="font-bold">$35.00</span>
+          <span>(1.5kg)</span>
         </div>
 
 
