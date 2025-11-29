@@ -4,7 +4,7 @@ export default function Poster3(){
 
     return(
          <div className="bg-white w-60 h-90 mt-auto mb-auto flex justify-center  items-start">
-        <img className="p-3" src='src/img/bastanee.svg' alt="" />
+        <img className="p-3" src='src/img/comboze.svg' alt="" />
 
 
         <div className="absolute mt-70 w-50">
