@@ -11,9 +11,9 @@ export default function Poster2(){
         </div>
 
         <div className="flex w-50 absolute mt-76 gap-3">
-          <span className="line-through font-semibold">$40.00</span>
-          <span className="font-bold">$30.00</span>
-          <span>(1kg)</span>
+          <span className="line-through font-semibold">$20.00</span>
+          <span className="font-bold">$15.00</span>
+          <span>(450ml)</span>
         </div>
 
 
