@@ -18,6 +18,7 @@ function App() {
       <Categories />
 
       <Main2 />
+      
 
     </div>
 
