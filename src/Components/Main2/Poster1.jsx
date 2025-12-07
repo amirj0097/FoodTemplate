@@ -131,7 +131,7 @@ const ProductSlider = () => {
               </button>
             </div>
 
-            {/* نشانگرها */}
+           
 
           </div>
 
