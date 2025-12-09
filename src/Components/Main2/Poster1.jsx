@@ -12,13 +12,12 @@ import Search from '/src/icon/Search (2).svg';
 import rightsmall from '/src/icon/rightsmall.svg';
 import leftsmall from '/src/icon/leftsmall.svg';
 
-
 const ProductSlider = () => {
   const [currentSlide, setCurrentSlide] = useState(0);
 
   const products = [
     {
-
+      id: 1, // اضافه کردن id
       description: ddd,
       originalPrice: "$49.00",
       currentPrice: "$30.00",
@@ -28,53 +27,56 @@ const ProductSlider = () => {
       icon2: Charkhesh,
       icon3: Like,
       icon4: Search,
-  
     },
     {
+      id: 2, // اضافه کردن id
       description: ddd2,
       originalPrice: "$65.00",
       currentPrice: "$45.00",
       weight: "(450ml)",
       img: fff2,
-      
     },
     {
+      id: 3, // اضافه کردن id
       description: ddd3,
       originalPrice: "$25.00",
       currentPrice: "$18.00",
       weight: "(1.5kg)",
       img: fff3,
-      
     },
     {
-      description: "بستنی در انواع طعم‌ها، کون‌ها و ساندی...",
+      id: 4, // اضافه کردن id
+      description: ddd3,
       originalPrice: "$29.00",
       currentPrice: "$15.00",
-      weight: "(450ml)",
-      img: fff,
+      weight: "(1kg)",
+      img: fff3,
     },
     {
-      description: "پاپایا تازه، دانه‌های آگلیس و میوه‌های استوایی...",
+      id: 5, // اضافه کردن id
+      description: ddd2,
       originalPrice: "$45.00",
       currentPrice: "$35.00",
-      weight: "(1.5kg)",
-      img: fff,
+      weight: "(450ml)",
+      img: fff2,
     },
     {
-      description: "انواع شیرینی، شکلات و دسرهای خاص...",
+      id: 6, // اضافه کردن id
+      description: ddd3,
       originalPrice: "$38.00",
       currentPrice: "$28.00",
-      weight: "(600g)",
-      img: fff,
+      weight: "(1.5kg)",
+      img: fff3,
     }
   ];
 
   const slides = [
     {
-
+      id: "slide-1", // اضافه کردن id برای اسلاید
       products: products.slice(0, 3)
     },
     {
+      id: "slide-2", // اضافه کردن id برای اسلاید
       products: products.slice(3, 6)
     }
   ];
@@ -91,117 +93,70 @@ const ProductSlider = () => {
     setCurrentSlide(index);
   };
 
-
-
   const renderStars = () => {
-
+    // تابع شما
   };
 
   return (
-    <div className="w-[62%]   py-4 px-4">
+    <div className="w-[62%] py-4 px-4">
       <div className="max-w-6xl -mr-65">
-
-
-
-        {/* اسلایدر */}
         <main className="overflow-hidden">
-
-
-
-          {/* کنترل‌های اسلایدر */}
-          <div className="flex  justify-end p-6 border-t border-gray-100">
-            {/* دکمه‌های ناوبری */}
+          <div className="flex justify-end p-6">
             <div className="flex -mr-2 gap-4">
               <button
                 onClick={prevSlide}
                 className="w-10 h-10 text-[#E21A43] border border-[#E21A43] flex items-center justify-center transition-all duration-300 hover:scale-110 shadow-lg"
               >
-
                 <img className='' src={leftsmall} alt="" />
-
               </button>
-
-
               <button
                 onClick={nextSlide}
-                className="w-10 h-10 bg-[#E21A43] text-white  flex items-center justify-center transition-all duration-300 hover:scale-110 shadow-lg"
+                className="w-10 h-10 bg-[#E21A43] text-white flex items-center justify-center transition-all duration-300 hover:scale-110 shadow-lg"
               >
                 <img className='' src={rightsmall} alt="" />
-                
               </button>
             </div>
-
-           
-
           </div>
 
-
-
           <div className="relative">
-            {/* محتوای اسلایدر */}
             <div className="overflow-hidden">
               <div
                 className="flex transition-transform duration-500 ease-in-out"
                 style={{ transform: `translateX(-${currentSlide * 100}%)` }}
               >
-                {slides.map((slide, slideIndex) => (
-                  <div key={slideIndex} className="w-full flex-shrink-0 p-0">
-                 
-                    
-                    {/* محصولات */}
-                    <div className="grid  grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-                      {slide.products.map((product, productIndex) => (
-                        
+                {slides.map((slide) => ( // حذف slideIndex
+                  <div key={slide.id} className="w-full flex-shrink-0 p-0"> {/* استفاده از slide.id */}
+                    <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+                      {slide.products.map((product) => ( // حذف productIndex
                         <div
-                          key={productIndex}
-                          className='overflow-hidden  bg-white w-60 h-90  flex justify-center  items-start'
+                          key={product.id} // استفاده از product.id
+                          className='overflow-hidden bg-white w-60 h-90 flex justify-center items-start relative'
                         >
-                          
-                          
                           <span className=""><img className='p-3' src={product.img} alt="" /></span>
 
+                          {product.id === 1 && ( // تغییر شرط به id
+                            <div className="flex w-30 px-2 py-2 gap-2 absolute justify-center mt-[233px] bg-white shadow-md shadow-gray-200">
+                              <a className=" " href=""> <img className="border-r-1 border-[#888888] w-15 pr-2" src={Mosbat} alt="" /></a>
+                              <a className=" " href=""> <img className="border-r-1 border-[#888888] w-15 pr-2" src={Charkhesh} alt="" /></a>
+                              <a className=" " href=""> <img className="border-r-1 border-[#888888] w-15 pr-2" src={Like} alt="" /></a>
+                              <a className="" href=""> <img className="w-10 pr-0" src={Search} alt="" /></a>
+                            </div>
+                          )}
 
-                            {productIndex === 0 && (
-
-                          <div className="flex w-30 px-2 py-2 gap-2 absolute justify-center mt-[233px] bg-white shadow-md shadow-gray-200">
-
-                            <a className=" " href=""> <img className="border-r-1 border-[#888888]  w-15 pr-2" src={product.icon1} alt="" /></a>
-                            <a className=" " href=""> <img className="border-r-1 border-[#888888] w-15 pr-2" src={product.icon2} alt="" /></a>
-                            <a className=" " href=""> <img className="border-r-1 border-[#888888] w-15   pr-2" src={product.icon3} alt="" /></a>
-                            <a className="" href=""> <img className="w-10 pr-0" src={product.icon4} alt="" /></a>
-
-                          </div>
-
-                            )}
-
-
-
-                          {/* تصویر محصول */}
                           <div className="absolute mt-70 w-50">
                             <img className='' src={product.description} alt="" />
-
                           </div>
 
-                          {/* اطلاعات محصول */}
                           <div className="flex w-50 absolute mt-76 gap-3">
-
-
-
-                            {/* قیمت */}
-
-                            <span className="text-[#333333] line-through ">
+                            <span className="text-[#333333] line-through">
                               {product.originalPrice}
                             </span>
-                            <span className="  font-bold text-[#333333]">
+                            <span className="font-bold text-[#333333]">
                               {product.currentPrice}
                             </span>
-
                             <span className="text-xs flex items-center text-[#333333]">
                               {product.weight}
                             </span>
-
-
-
                           </div>
                         </div>
                       ))}
@@ -210,12 +165,8 @@ const ProductSlider = () => {
                 ))}
               </div>
             </div>
-
-
           </div>
         </main>
-
-
       </div>
     </div>
   );

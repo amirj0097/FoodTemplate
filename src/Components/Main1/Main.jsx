@@ -141,25 +141,27 @@ export default function Main() {
                   src={slide.image}
                   alt="Sushee"
                   className="max-h-full object-contain
-      opacity-0 translate-x-[100px] 
-      animate-[slideIn_1.2s_cubic-bezier(0.25,0.46,0.45,0.94)_0.3s_forwards]"
+                       opacity-0 translate-x-[100px] 
+                      animate-[slideIn_1.2s_cubic-bezier(0.25,0.46,0.45,0.94)_0.3s_forwards]"
                 />
 
 
 
               </div>
+
               <style jsx>{`
-  @keyframes slideIn {
-    0% {
-      opacity: 0;
-      transform: translateX(100px) rotate(5deg);
-    }
-    100% {
-      opacity: 1;
-      transform: translateX(0) rotate(0);
-    }
-  }
-`}</style>
+                       @keyframes slideIn {
+                          0% {
+                            opacity: 0;
+                            transform: translateX(100px) rotate(5deg);
+                          }
+                          100% {
+                            opacity: 1;
+                            transform: translateX(0) rotate(0);
+                          }
+                        }
+                `}</style>
+
             </div>
           </div>
         ))}
