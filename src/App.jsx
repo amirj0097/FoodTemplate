@@ -1,7 +1,8 @@
 import Categories from "./Components/Categories";
 import Main from "./Components/Main1/Main";
 import Main2 from "./Components/Main2/Main";
-import Header from "./Headers/Header";
+import Main3 from "./Components/Main3/Main";
+import Header from "./Components/Headers/Header";
 
 function App() {
 
@@ -18,6 +19,8 @@ function App() {
       <Categories />
 
       <Main2 />
+
+      <Main3 />
       
 
     </div>
