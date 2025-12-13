@@ -13,7 +13,7 @@ export default function left(){
 
                             <div className="w-1/2  h-90 justify-center items-center flex flex-col ">
 
-                        <img className='absolute z-9 -mt-3 flex-wrap  left-0 right-0' src={khat} alt="" />
+                        <img className='absolute z-9 -mt-3 flex-wrap   left-0 right-0' src={khat} alt="" />
 
                 <div className="flex z-25 gap-y-6 absolute items-center flex-col">
                     <img className='w-30 mt-8 ' src={peyck} alt="" />
