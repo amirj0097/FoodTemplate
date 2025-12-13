@@ -1,10 +1,21 @@
 import React, { useState, useRef, useEffect } from 'react';
-import fff from '/src/img/Noone.svg'
+import fff from '/src/img/Noone.svg';
+import fff2 from '/src/img/bastanee.svg';
+import fff4 from '/src/img/comboze.svg';
+import fff3 from '/src/img/sarfasl(2).svg'
 import ddd from '/src/img/textnoone.svg';
+import ddd2 from '/src/img/textbastanee.svg';
+import ddd4 from '/src/img/textcomboze.svg';
+import ddd3 from '/src/img/textsarfasl (2).svg';
 import Mosbat from '/src/icon/+.svg';
 import Charkhesh from '/src/icon/charkhesh.svg';
 import Like from '/src/icon/Like.svg';
 import Search from '/src/icon/Search (2).svg';
+import rightsmall from '/src/icon/rightsmall.svg';
+import leftsmall from '/src/icon/leftsmall.svg';
+
+
+
 
 
 const BestSellingSlider = () => {
@@ -30,174 +41,207 @@ const BestSellingSlider = () => {
       },
       {
         id: 2,
-        title: 'Fresh Apples',
-        price: '$20.00-$15.00',
-        weight: '(1kg)',
-        category: 'Fruits'
+        description: ddd2,
+        originalPrice: "$20.00",
+        currentPrice: "$15.00",
+        weight: "(45ml)",
+        img: fff2,
+
       },
       {
         id: 3,
-        title: 'Bananas Bunch',
-        price: '$12.00-$8.00',
-        weight: '(1kg)',
-        category: 'Fruits'
+        description: ddd3,
+        originalPrice: "$25.00",
+        currentPrice: "$15.00",
+        weight: "(1.5kg)",
+        img: fff3,
       },
       {
         id: 4,
-        title: 'Orange Citrus',
-        price: '$18.00-$14.00',
-        weight: '(2kg)',
-        category: 'Fruits'
+        description: ddd4,
+        originalPrice: "$45.00",
+        currentPrice: "$35.00",
+        weight: "(1.5kg)",
+        img: fff4,
       }
     ],
     Vegetable: [
       {
         id: 5,
-        title: 'fresh Vegetables',
-        price: '$25.00-$15.00',
-        weight: '(1.5kg)',
-        category: 'Vegetable'
+        description: ddd,
+        originalPrice: "$40.00",
+        currentPrice: "$30.00",
+        weight: "(1kg)",
+        img: fff,
+
       },
       {
         id: 6,
-        title: 'Organic Carrots',
-        price: '$18.00-$12.00',
-        weight: '(2kg)',
-        category: 'Vegetable'
+        description: ddd2,
+        originalPrice: "$20.00",
+        currentPrice: "$15.00",
+        weight: "(45ml)",
+        img: fff2,
+
       },
       {
         id: 7,
-        title: 'Fresh Tomatoes',
-        price: '$14.00-$10.00',
-        weight: '(1kg)',
-        category: 'Vegetable'
+        description: ddd3,
+        originalPrice: "$25.00",
+        currentPrice: "$15.00",
+        weight: "(1.5kg)",
+        img: fff3,
       },
       {
         id: 8,
-        title: 'Green Lettuce',
-        price: '$9.00-$7.00',
-        weight: '(500g)',
-        category: 'Vegetable'
+        description: ddd4,
+        originalPrice: "$45.00",
+        currentPrice: "$35.00",
+        weight: "(1.5kg)",
+        img: fff4,
       }
     ],
     Meal: [
       {
         id: 9,
-        title: 'Grilled Chicken',
-        price: '$35.00-$28.00',
-        weight: '(500g)',
-        category: 'Meal'
+        description: ddd,
+        originalPrice: "$40.00",
+        currentPrice: "$30.00",
+        weight: "(1kg)",
+        img: fff,
+
       },
       {
         id: 10,
-        title: 'Beef Steak',
-        price: '$45.00-$35.00',
-        weight: '(400g)',
-        category: 'Meal'
+        description: ddd2,
+        originalPrice: "$20.00",
+        currentPrice: "$15.00",
+        weight: "(45ml)",
+        img: fff2,
+
       },
       {
         id: 11,
-        title: 'Salmon Fillet',
-        price: '$38.00-$30.00',
-        weight: '(300g)',
-        category: 'Meal'
+        description: ddd3,
+        originalPrice: "$25.00",
+        currentPrice: "$15.00",
+        weight: "(1.5kg)",
+        img: fff3,
       },
       {
         id: 12,
-        title: 'Pork Chops',
-        price: '$32.00-$25.00',
-        weight: '(500g)',
-        category: 'Meal'
+        description: ddd4,
+        originalPrice: "$45.00",
+        currentPrice: "$35.00",
+        weight: "(1.5kg)",
+        img: fff4,
       }
     ],
     Milk: [
       {
         id: 13,
-        title: 'Fresh Milk',
-        price: '$10.00-$8.00',
-        weight: '(1L)',
-        category: 'Milk'
+        description: ddd,
+        originalPrice: "$40.00",
+        currentPrice: "$30.00",
+        weight: "(1kg)",
+        img: fff,
+
       },
       {
         id: 14,
-        title: 'Chocolate Milk',
-        price: '$18.00-$15.00',
-        weight: '(1L)',
-        category: 'Milk'
+        description: ddd2,
+        originalPrice: "$20.00",
+        currentPrice: "$15.00",
+        weight: "(45ml)",
+        img: fff2,
+
       },
       {
         id: 15,
-        title: 'Almond Milk',
-        price: '$22.00-$18.00',
-        weight: '(1L)',
-        category: 'Milk'
+        description: ddd3,
+        originalPrice: "$25.00",
+        currentPrice: "$15.00",
+        weight: "(1.5kg)",
+        img: fff3,
       },
       {
         id: 16,
-        title: 'Soy Milk',
-        price: '$20.00-$16.00',
-        weight: '(1L)',
-        category: 'Milk'
+        description: ddd4,
+        originalPrice: "$45.00",
+        currentPrice: "$35.00",
+        weight: "(1.5kg)",
+        img: fff4,
       }
     ],
     Cakes: [
       {
         id: 17,
-        title: 'bakery bread viennoiserie...',
-        price: '$40.00-$30.00',
-        weight: '(1kg)',
-        category: 'Cakes'
+        description: ddd,
+        originalPrice: "$40.00",
+        currentPrice: "$30.00",
+        weight: "(1kg)",
+        img: fff,
       },
       {
         id: 18,
-        title: 'ICE cream cones sundae...',
-        price: '$20.00-$15.00',
-        weight: '(450ml)',
-        category: 'Cakes'
+        description: ddd2,
+        originalPrice: "$20.00",
+        currentPrice: "$15.00",
+        weight: "(45ml)",
+        img: fff2,
+
       },
       {
         id: 19,
-        title: 'Chocolate Cake',
-        price: '$32.00-$25.00',
-        weight: '(800g)',
-        category: 'Cakes'
+        description: ddd3,
+        originalPrice: "$25.00",
+        currentPrice: "$15.00",
+        weight: "(1.5kg)",
+        img: fff3,
       },
       {
         id: 20,
-        title: 'Cheesecake',
-        price: '$38.00-$30.00',
-        weight: '(600g)',
-        category: 'Cakes'
+        description: ddd4,
+        originalPrice: "$45.00",
+        currentPrice: "$35.00",
+        weight: "(1.5kg)",
+        img: fff4,
       }
     ],
     Drinks: [
       {
         id: 21,
-        title: 'Orange Juice',
-        price: '$15.00-$12.00',
-        weight: '(1L)',
-        category: 'Drinks'
+        description: ddd,
+        originalPrice: "$40.00",
+        currentPrice: "$30.00",
+        weight: "(1kg)",
+        img: fff,
+
       },
       {
         id: 22,
-        title: 'Cola Drink',
-        price: '$8.00-$6.00',
-        weight: '(2L)',
-        category: 'Drinks'
+        description: ddd2,
+        originalPrice: "$20.00",
+        currentPrice: "$15.00",
+        weight: "(45ml)",
+        img: fff2,
+
       },
       {
         id: 23,
-        title: 'Mineral Water',
-        price: '$5.00-$3.00',
-        weight: '(1.5L)',
-        category: 'Drinks'
+        description: ddd3,
+        originalPrice: "$25.00",
+        currentPrice: "$15.00",
+        weight: "(1.5kg)",
+        img: fff3,
       },
       {
         id: 24,
-        title: 'Energy Drink',
-        price: '$12.00-$9.00',
-        weight: '(500ml)',
-        category: 'Drinks'
+        description: ddd4,
+        originalPrice: "$45.00",
+        currentPrice: "$35.00",
+        weight: "(1.5kg)",
+        img: fff4,
       }
     ]
   };
@@ -226,7 +270,7 @@ const BestSellingSlider = () => {
   }, [activeCategory]);
 
   return (
-    <div className="p-6 max-w-7xl bg-gray-400  mx-auto font-sans" ref={containerRef}>
+    <div className=" w-full py-20 bg-[#F7F7F7]   font-sans" ref={containerRef}>
       {/* عنوان اصلی */}
       <span className="flex justify-center mb-5">
         <img src="src/img/Title main4.svg" alt="" />
@@ -251,7 +295,7 @@ const BestSellingSlider = () => {
 
 
       {/* محصولات دسته فعال - 4 محصول در 2 ردیف */}
-      <div className="grid  grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+      <div className="flex justify-center md:grid-cols-2 lg:grid-cols-4 gap-6">
         {filteredProducts.map((product) => (
           <div
             key={product.id}
@@ -292,21 +336,23 @@ const BestSellingSlider = () => {
       </div>
 
       {/* دکمه‌های کوچک‌تر برای اسلاید */}
-      <div className="flex justify-center items-center space-x-6 mt-10">
+      <div className="flex justify-center items-center space-x-4 mt-10">
         <button
           onClick={prevCategory}
-          className="w-10 h-10 flex items-center justify-center bg-gray-800 text-white rounded-full hover:bg-gray-900 shadow-lg"
+          className="w-10 h-10 text-[#E21A43] border border-[#E21A43] flex items-center justify-center transition-all duration-300 hover:scale-110 "
         >
-          ‹
+          <img className='' src={leftsmall} alt="" />
+
         </button>
 
 
 
         <button
           onClick={nextCategory}
-          className="w-10 h-10 flex items-center justify-center bg-gray-800 text-white rounded-full hover:bg-gray-900 shadow-lg"
+          className="w-10 h-10 bg-[#E21A43] text-white flex items-center justify-center transition-all duration-300 hover:scale-110 "
         >
-          ›
+          <img className='' src={rightsmall} alt="" />
+
         </button>
       </div>
 
