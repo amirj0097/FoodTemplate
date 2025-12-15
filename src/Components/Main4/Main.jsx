@@ -270,7 +270,7 @@ const BestSellingSlider = () => {
   }, [activeCategory]);
 
   return (
-    <div className=" w-full py-20 bg-[#F7F7F7]   font-sans" ref={containerRef}>
+    <div className=" w-full py-15 bg-[#F7F7F7]   font-sans" ref={containerRef}>
       {/* عنوان اصلی */}
       <span className="flex justify-center mb-5">
         <img src="src/img/Title main4.svg" alt="" />
@@ -336,7 +336,7 @@ const BestSellingSlider = () => {
       </div>
 
       {/* دکمه‌های کوچک‌تر برای اسلاید */}
-      <div className="flex justify-center items-center space-x-4 mt-10">
+      <div className="flex justify-center items-center space-x-6 mt-10">
         <button
           onClick={prevCategory}
           className="w-10 h-10 text-[#E21A43] border border-[#E21A43] flex items-center justify-center transition-all duration-300 hover:scale-110 "

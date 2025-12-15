@@ -4,6 +4,7 @@ import Main from "./Components/Main1/Main";
 import Main2 from "./Components/Main2/Main";
 import Main3 from "./Components/Main3/Main";
 import Main4 from "./Components/Main4/Main";
+import Main5 from "./Components/Main5/Main";
 
 function App() {
 
@@ -24,6 +25,9 @@ function App() {
       <Main3 />
       
       <Main4 />
+
+      <Main5 />
+
 
     </div>
 
