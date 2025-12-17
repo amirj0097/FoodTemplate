@@ -6,11 +6,12 @@ import Tick_2 from '/src/img/Tick2.svg'
 import Goosht from '/src/img/Gosht .svg'
 
 
+
 export default function Main() {
 
     return (
 
-        <div className="bg-white w-full gap-5 items-center justify-center flex h-[650px]">
+        <div className="bg-white w-full gap-8 items-center justify-center flex h-[650px]">
 
 
             <div className=" flex justify-end  w-1/2">
@@ -24,7 +25,7 @@ export default function Main() {
                 <img className='' src={Title} alt="" />
 
 
-                <img className='flex absolute -mt-1 right-123' src={gool} alt="" />
+                <img className='flex absolute -mt-1 right-120' src={gool} alt="" />
 
                 <img className='mt-13' src={Text} alt="" />
 
