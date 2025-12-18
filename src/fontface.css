@@ -1,19 +1,19 @@
 @font-face {
     font-family: 'sofia';
-    src: url(font/Sofia\ Pro\ Bold\ Az.woff);
+    src: url(/font/Sofia\ Pro\ Bold\ Az.woff);
 }
 
 @font-face {
     font-family: 'modam';
-    src: url(font/modam.ttf);
+    src: url(/font/modam.ttf);
 }
 
 @font-face {
     font-family: 'amir';
-    src: url(font/Shabnam-Thin.woff2);
+    src: url(/font/Shabnam-Thin.woff2) format('woff2');
 }
 
 @font-face {
     font-family: 'Light';
-    src: url(font/Shabnam-Light.woff);
+    src: url(/font/Shabnam-Light.woff);
 }

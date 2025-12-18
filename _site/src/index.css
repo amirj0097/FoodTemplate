@@ -1,0 +1,37 @@
+
+
+@import "tailwindcss";
+
+@theme{
+    --breakpoint-3xl: 1922px;
+    --breakpoint-1xl: 1424px;
+    --breakpoint-xs: 540px;
+}
+
+@import './fontface.css';
+
+*{
+    direction: rtl;
+}
+
+
+.font-sofia{
+    font-family: 'sofia';
+}
+
+.font-modam{
+    font-family: 'modam';
+}
+
+.font-shabnam{
+    font-family: 'amir';
+}
+
+.Light{
+    font-family: 'Light';
+}
+
+
+
+
+

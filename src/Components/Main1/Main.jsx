@@ -67,8 +67,8 @@ export default function Main() {
   }, [currentSlide, autoPlay]);
 
   return (
-    <div className="w-full h-[650px] overflow-hidden relative">
-
+    <div className="w-full h-[650px] font-shabnam overflow-hidden relative">
+سلام غلام 
 
       <button
         onClick={prevSlide}
@@ -88,7 +88,7 @@ export default function Main() {
 
       {/* اسلاید فعلی */}
       <div
-        className="w-full h-full flex transition-transform duration-700 ease-in-out"
+        className="w-full h-full flex  transition-transform duration-700 ease-in-out"
         style={{ transform: `translateX(-${currentSlide * 100}%)` }}
       >
         {slides.map((slide, index) => (
