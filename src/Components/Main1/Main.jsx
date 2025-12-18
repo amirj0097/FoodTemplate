@@ -67,8 +67,8 @@ export default function Main() {
   }, [currentSlide, autoPlay]);
 
   return (
-    <div className="w-full h-[650px] font-shabnam overflow-hidden relative">
-سلام غلام 
+    <div className="w-full h-[650px]  overflow-hidden relative">
+<span className='Light'>سلام غلام</span> 
 
       <button
         onClick={prevSlide}

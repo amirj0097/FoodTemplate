@@ -20,7 +20,7 @@ import leftsmall from '/src/icon/leftsmall.svg';
 
 const BestSellingSlider = () => {
   const [activeCategory, setActiveCategory] = useState('Fruits');
-  const containerRef = useRef(null);
+
 
   const categories = ['Fruits', 'Vegetable', 'Meal', 'Milk', 'Cakes', 'Drinks'];
 
@@ -262,15 +262,9 @@ const BestSellingSlider = () => {
     setActiveCategory(categories[prevIndex]);
   };
 
-  // وقتی دسته عوض می‌شه، به بالای صفحه اسکرول کن
-  useEffect(() => {
-    if (containerRef.current) {
-      containerRef.current.scrollIntoView({ behavior: 'smooth', block: 'start' });
-    }
-  }, [activeCategory]);
 
   return (
-    <div className=" w-full py-15 bg-[#F7F7F7]   font-sans" ref={containerRef}>
+    <div className=" w-full py-15 bg-[#F7F7F7]   font-sans">
       {/* عنوان اصلی */}
       <span className="flex justify-center mb-5">
         <img src="src/img/Title main4.svg" alt="" />

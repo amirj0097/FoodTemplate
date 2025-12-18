@@ -265,7 +265,7 @@ const BestSellingSlider = () => {
   // وقتی دسته عوض می‌شه، به بالای صفحه اسکرول کن
   useEffect(() => {
     if (containerRef.current) {
-      containerRef.current.scrollIntoView({ behavior: 'smooth', block: 'start' });
+      // containerRef.current.scrollIntoView({ behavior: 'smooth', block: 'start' });
     }
   }, [activeCategory]);
 
