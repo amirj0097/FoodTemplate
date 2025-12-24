@@ -68,8 +68,7 @@ export default function Main() {
 
   return (
     <div className="w-full h-[650px]  overflow-hidden relative">
-<span className='Light'>سلام غلام</span> 
-
+      
       <button
         onClick={prevSlide}
         className="absolute left-8 top-1/2 transform -translate-y-1/2 z-20 py-3 px-4.5 border border-[#E21A43] bg-white  transition-colors"
