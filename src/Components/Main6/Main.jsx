@@ -189,7 +189,7 @@ const ProductShowcase = () => {
   );
 
   return (
-    <div className="h-[730px] flex  bg-gray-50 items-center md:p-6">
+    <div className="h-[730px] flex  bg-gray-50 items-center">
       <div className="max-w-7xl mx-auto">
         {/* عنوان اصلی */}
 
