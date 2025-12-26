@@ -189,7 +189,7 @@ const ProductShowcase = () => {
   );
 
   return (
-    <div className="min-h-screen flex  bg-gray-50 items-center md:p-6">
+    <div className="h-[730px] flex  bg-gray-50 items-center md:p-6">
       <div className="max-w-7xl mx-auto">
         {/* عنوان اصلی */}
 
@@ -301,7 +301,7 @@ const ProductShowcase = () => {
 
                     {/* اطلاعات محصول */}
                     <div className='w-1/2 gap-y-1 h-26 flex flex-col justify-center items-start'>
-                      <h3 className="font-semibold  text-[#333333] text-xs line-clamp-1">{product.name}</h3>
+                      <h3 className="font-semibold  text-[#333333] text-xs text-left  line-clamp-1">{product.name}</h3>
 
                       {/* قیمت‌ها */}
                       <div className="flex items-center gap-2 mb-2">
