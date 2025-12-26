@@ -7,6 +7,7 @@ import Sabzee from '/src/img/Sabzigat.jpg'
 import Meal from '/src/img/Meal.jpg'
 import Milk from '/src/img/Milk.jpg'
 import Cakes from '/src/img/Cakes.jpg'
+import Drink from '/src/img/Drinks.jpg'
 
 import React, { useState, useEffect } from 'react';
 
@@ -86,22 +87,22 @@ const ProductShowcase = () => {
     { id: 60, name: 'Muffins', category: 'Cakes', originalPrice: 9.00, discountPrice: 6.50, rating: 4, image: Cakes },
 
     // Drinks (12 items)
-    { id: 61, name: 'Fresh Black Coffee', category: 'Drinks', originalPrice: 25.00, discountPrice: 20.00, rating: 5, image: 'https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?w=400&h=300&fit=crop&crop=center' },
-    { id: 62, name: 'Mix Ready Juice', category: 'Drinks', originalPrice: 15.00, discountPrice: 8.00, rating: 4, image: 'https://images.unsplash.com/photo-1600271886742-f049cd451bba?w=400&h=300&fit=crop&crop=center' },
-    { id: 63, name: 'Green Tea', category: 'Drinks', originalPrice: 12.00, discountPrice: 9.00, rating: 5, image: 'https://images.unsplash.com/photo-1597481499751-6d4d6eff5c42?w=400&h=300&fit=crop&crop=center' },
-    { id: 64, name: 'Orange Juice', category: 'Drinks', originalPrice: 8.00, discountPrice: 6.00, rating: 4, image: 'https://images.unsplash.com/photo-1621506289937-a8e4df240d0b?w=400&h=300&fit=crop&crop=center' },
-    { id: 65, name: 'Smoothie', category: 'Drinks', originalPrice: 10.00, discountPrice: 7.50, rating: 4, image: 'https://images.unsplash.com/photo-1505252585461-04db1eb84625?w=400&h=300&fit=crop&crop=center' },
-    { id: 66, name: 'Iced Tea', category: 'Drinks', originalPrice: 7.00, discountPrice: 5.00, rating: 4, image: 'https://images.unsplash.com/photo-1561047029-3000c68339ca?w=400&h=300&fit=crop&crop=center' },
-    { id: 67, name: 'Lemonade', category: 'Drinks', originalPrice: 6.00, discountPrice: 4.00, rating: 5, image: 'https://images.unsplash.com/photo-1621506289937-a8e4df240d0b?w=400&h=300&fit=crop&crop=center' },
-    { id: 68, name: 'Energy Drink', category: 'Drinks', originalPrice: 9.00, discountPrice: 6.50, rating: 4, image: 'https://images.unsplash.com/photo-1561047029-3000c68339ca?w=400&h=300&fit=crop&crop=center' },
-    { id: 69, name: 'Herbal Tea', category: 'Drinks', originalPrice: 11.00, discountPrice: 8.00, rating: 5, image: 'https://images.unsplash.com/photo-1597481499751-6d4d6eff5c42?w=400&h=300&fit=crop&crop=center' },
-    { id: 70, name: 'Sparkling Water', category: 'Drinks', originalPrice: 5.00, discountPrice: 3.50, rating: 4, image: 'https://images.unsplash.com/photo-1523362628745-0c100150b504?w=400&h=300&fit=crop&crop=center' },
-    { id: 71, name: 'Hot Chocolate', category: 'Drinks', originalPrice: 14.00, discountPrice: 10.00, rating: 5, image: 'https://images.unsplash.com/photo-1572490122747-3968b75cc699?w=400&h=300&fit=crop&crop=center' },
-    { id: 72, name: 'Apple Juice', category: 'Drinks', originalPrice: 9.00, discountPrice: 6.00, rating: 4, image: 'https://images.unsplash.com/photo-1621506289937-a8e4df240d0b?w=400&h=300&fit=crop&crop=center' },
+    { id: 61, name: 'Fresh Black Coffee', category: 'Drinks', originalPrice: 25.00, discountPrice: 20.00, rating: 5, image: Drink },
+    { id: 62, name: 'Mix Ready Juice', category: 'Drinks', originalPrice: 15.00, discountPrice: 8.00, rating: 4, image: Drink },
+    { id: 63, name: 'Green Tea', category: 'Drinks', originalPrice: 12.00, discountPrice: 9.00, rating: 5, image: Drink },
+    { id: 64, name: 'Orange Juice', category: 'Drinks', originalPrice: 8.00, discountPrice: 6.00, rating: 4, image: Drink },
+    { id: 65, name: 'Smoothie', category: 'Drinks', originalPrice: 10.00, discountPrice: 7.50, rating: 4, image: Drink },
+    { id: 66, name: 'Iced Tea', category: 'Drinks', originalPrice: 7.00, discountPrice: 5.00, rating: 4, image: Drink },
+    { id: 67, name: 'Lemonade', category: 'Drinks', originalPrice: 6.00, discountPrice: 4.00, rating: 5, image: Drink },
+    { id: 68, name: 'Energy Drink', category: 'Drinks', originalPrice: 9.00, discountPrice: 6.50, rating: 4, image: Drink },
+    { id: 69, name: 'Herbal Tea', category: 'Drinks', originalPrice: 11.00, discountPrice: 8.00, rating: 5, image: Drink },
+    { id: 70, name: 'Sparkling Water', category: 'Drinks', originalPrice: 5.00, discountPrice: 3.50, rating: 4, image: Drink },
+    { id: 71, name: 'Hot Chocolate', category: 'Drinks', originalPrice: 14.00, discountPrice: 10.00, rating: 5, image: Drink },
+    { id: 72, name: 'Apple Juice', category: 'Drinks', originalPrice: 9.00, discountPrice: 6.00, rating: 4, image: Drink },
   ];
 
   // دسته‌بندی‌ها
-  const categories = ['All', 'Fruits', 'Vegetable', 'Meal', 'Milk', 'Cakes', 'Drinks'];
+  const categories = ['Fruits', 'Vegetable', 'Meal', 'Milk', 'Cakes', 'Drinks'];
 
   // state‌ها
   const [selectedCategory, setSelectedCategory] = useState('Fruits');
