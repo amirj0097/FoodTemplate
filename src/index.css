@@ -1,3 +1,5 @@
+@import "tailwindcss";
+@import "@fontsource/sofia";
 @import './fontface.css';
 
 
@@ -8,7 +10,7 @@
 }
 
 .font-sofia{
-    font-family: 'sofia';
+    font-family: "Sofia";
 }
 
 .font-modam{
