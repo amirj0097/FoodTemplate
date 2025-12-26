@@ -2,6 +2,8 @@
 import Shop from '/src/icon/Shop(2).svg'
 import Mosbat from '/src/icon/Mosbat_red.svg'
 import Cofee from '/src/img/Cofee.svg'
+import Apel from '/src/img/apel.jpg'
+
 
 import React, { useState, useEffect } from 'react';
 
@@ -11,18 +13,18 @@ const ProductShowcase = () => {
   // داده‌های کامل‌تر با تصاویر
   const allProducts = [
     // Fruits (12 items)
-    { id: 1, name: 'Low Fat Peanut Oil', category: 'Fruits', originalPrice: 26.00, discountPrice: 20.00, rating: 4, image: 'https://images.unsplash.com/photo-1536975700520-2d3e8ad4d5dc?w=400&h=300&fit=crop&crop=center' },
-    { id: 2, name: 'Fresh Apple', category: 'Fruits', originalPrice: 12.00, discountPrice: 8.00, rating: 5, image: 'https://images.unsplash.com/photo-1568702846914-96b305d2aaeb?w=400&h=300&fit=crop&crop=center' },
-    { id: 3, name: 'Kiwifruit Food', category: 'Fruits', originalPrice: 8.00, discountPrice: 5.00, rating: 4, image: 'https://images.unsplash.com/photo-1550253006-4e6e9a07aa4b?w=400&h=300&fit=crop&crop=center' },
-    { id: 4, name: 'Organic Banana', category: 'Fruits', originalPrice: 6.00, discountPrice: 4.00, rating: 4, image: 'https://images.unsplash.com/photo-1603833665858-e61d17a86224?w=400&h=300&fit=crop&crop=center' },
-    { id: 5, name: 'Sweet Orange', category: 'Fruits', originalPrice: 10.00, discountPrice: 7.00, rating: 5, image: 'https://images.unsplash.com/photo-1547514701-42782101795e?w=400&h=300&fit=crop&crop=center' },
-    { id: 6, name: 'Juicy Watermelon', category: 'Fruits', originalPrice: 15.00, discountPrice: 12.00, rating: 4, image: 'https://images.unsplash.com/photo-1563114773-8426e8455f8a?w=400&h=300&fit=crop&crop=center' },
-    { id: 7, name: 'Fresh Grapes', category: 'Fruits', originalPrice: 9.00, discountPrice: 6.50, rating: 4, image: 'https://images.unsplash.com/photo-1592924688932-167677a56b1c?w=400&h=300&fit=crop&crop=center' },
-    { id: 8, name: 'Ripe Mango', category: 'Fruits', originalPrice: 14.00, discountPrice: 10.00, rating: 5, image: 'https://images.unsplash.com/photo-1568702846914-96b305d2aaeb?w=400&h=300&fit=crop&crop=center' },
-    { id: 9, name: 'Sweet Strawberry', category: 'Fruits', originalPrice: 18.00, discountPrice: 14.00, rating: 4, image: 'https://images.unsplash.com/photo-1464965911861-746a04b4bca6?w=400&h=300&fit=crop&crop=center' },
-    { id: 10, name: 'Fresh Pineapple', category: 'Fruits', originalPrice: 11.00, discountPrice: 8.00, rating: 4, image: 'https://images.unsplash.com/photo-1580651315530-69c8e0026377?w=400&h=300&fit=crop&crop=center' },
-    { id: 11, name: 'Organic Avocado', category: 'Fruits', originalPrice: 16.00, discountPrice: 12.00, rating: 5, image: 'https://images.unsplash.com/photo-1523049673857-eb18f1d7b578?w=400&h=300&fit=crop&crop=center' },
-    { id: 12, name: 'Sweet Cherry', category: 'Fruits', originalPrice: 22.00, discountPrice: 18.00, rating: 4, image: 'https://images.unsplash.com/photo-1559181567-c3190ca9959b?w=400&h=300&fit=crop&crop=center' },
+    { id: 1, name: 'Low Fat Peanut Oil', category: 'Fruits', originalPrice: 26.00, discountPrice: 20.00, rating: 4, image: Apel},
+    { id: 2, name: 'Fresh Apple', category: 'Fruits', originalPrice: 12.00, discountPrice: 8.00, rating: 5, image: Apel },
+    { id: 3, name: 'Kiwifruit Food', category: 'Fruits', originalPrice: 8.00, discountPrice: 5.00, rating: 4, image: Apel },
+    { id: 4, name: 'Organic Banana', category: 'Fruits', originalPrice: 6.00, discountPrice: 4.00, rating: 4, image: Apel },
+    { id: 5, name: 'Sweet Orange', category: 'Fruits', originalPrice: 10.00, discountPrice: 7.00, rating: 5, image: Apel },
+    { id: 6, name: 'Juicy Watermelon', category: 'Fruits', originalPrice: 15.00, discountPrice: 12.00, rating: 4, image: Apel },
+    { id: 7, name: 'Fresh Grapes', category: 'Fruits', originalPrice: 9.00, discountPrice: 6.50, rating: 4, image: Apel },
+    { id: 8, name: 'Ripe Mango', category: 'Fruits', originalPrice: 14.00, discountPrice: 10.00, rating: 5, image: Apel },
+    { id: 9, name: 'Sweet Strawberry', category: 'Fruits', originalPrice: 18.00, discountPrice: 14.00, rating: 4, image: Apel },
+    { id: 10, name: 'Fresh Pineapple', category: 'Fruits', originalPrice: 11.00, discountPrice: 8.00, rating: 4, image: Apel },
+    { id: 11, name: 'Organic Avocado', category: 'Fruits', originalPrice: 16.00, discountPrice: 12.00, rating: 5, image: Apel },
+    { id: 12, name: 'Sweet Cherry', category: 'Fruits', originalPrice: 22.00, discountPrice: 18.00, rating: 4, image: Apel },
 
     // Vegetable (12 items)
     { id: 13, name: 'Fresh Carrot', category: 'Vegetable', originalPrice: 5.00, discountPrice: 3.50, rating: 4, image: 'https://images.unsplash.com/photo-1598170845058-78131a90f4bf?w=400&h=300&fit=crop&crop=center' },
@@ -242,8 +244,8 @@ const ProductShowcase = () => {
 
 
                 <div className="flex  gap-5">
-                  <button className='bg-[#E21A43] text-[#fff] cursor-pointer flex justify-center font-sofia  items-center gap-3 py-4 w-42'><img src={Shop} alt="" />Add to Bag</button>
-                  <button className='bg-[#E21A4333]  py-4 w-15 cursor-pointer flex items-center justify-center '><img src={Mosbat} alt="" /></button>
+                  <button className='bg-[#E21A43] text-[#fff] cursor-pointer flex justify-center font-sofia  items-center gap-3 py-3 w-44'><img src={Shop} alt="" />Add to Bag</button>
+                  <button className='bg-[#E21A4333] px-4  cursor-pointer flex items-center justify-center '><img src={Mosbat} alt="" /></button>
                 </div>
 
               </div>
