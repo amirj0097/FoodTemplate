@@ -2,6 +2,7 @@
 import Title from '/src/img/Title Main7.svg'
 import Text from '/src/img/Text Main7.svg'
 
+import Google from '/src/img/googleplay.svg'
 
 export default function Main() {
 
@@ -13,6 +14,8 @@ export default function Main() {
 
                 <img src={Title} alt="" />
                 <img src={Text} alt="" />
+                <img src={Google} alt="" />
+
                 </div>
 
 
