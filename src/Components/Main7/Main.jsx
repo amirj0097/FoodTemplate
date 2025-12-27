@@ -22,8 +22,12 @@ export default function Main() {
                 </div>
 
                 <div className="flex ml-24 mt-10 gap-5">
+                    <a href="">
                     <img className='' src={Google} alt="" />
+                    </a>
+                    <a href="">
                     <img src={Appstore} alt="" />
+                    </a>
                 </div>
 
             </div>
