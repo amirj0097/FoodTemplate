@@ -12,7 +12,7 @@ export default function Main() {
 
     return (
 
-        <div className="h-[650px] flex w-full bg-gray-300 items-center">
+        <div className="h-[650px] flex w-full items-center">
 
             <div className="w-1/2 ">
 
@@ -31,7 +31,7 @@ export default function Main() {
 
             <div className="w-1/2 flex justify-center items-center">
 
-                <img className='absolute left-auto right-92' src={Appel_left} alt="" />
+                <img className='absolute left-auto right-82' src={Appel_left} alt="" />
                 <img className='relative z-10 flex justify-center items-center' src={Appel_Middle} alt="" />
                 <img className='absolute right-19' src={Appel_right} alt="" />
 

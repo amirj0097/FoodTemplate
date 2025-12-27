@@ -7,12 +7,13 @@ import Main4 from "./Components/Main4/Main";
 import Main5 from "./Components/Main5/Main";
 import Main6 from "./Components/Main6/Main";
 import Main7 from "./Components/Main7/Main";
+import Main8 from "./Components/Main8/Main";
 
 function App() {
 
   return (
 
-    <div className="w-full items-start text-right min-h-[1280vh]">
+    <div className="w-full items-start text-right">
 
       <Header />
 
@@ -32,6 +33,9 @@ function App() {
       <Main6 />
 
       <Main7 />
+
+      <Main8 />
+
 
     </div>
 
