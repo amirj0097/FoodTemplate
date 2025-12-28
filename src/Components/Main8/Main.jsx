@@ -34,15 +34,15 @@ export default function Main() {
                         <img className='mt-5 mb-5' src={Khat} alt="" />
 
                         <div className="flex flex-col items-start gap-y-2">
-                        <a href="">
+                        <a href="#">
                         <span className='font-shabnam font-bold text-[#655b5b]'>Pagination</span></a>
-                        <a href="">
+                        <a href="#">
                         <span className='font-shabnam  font-bold text-[#655b5b]'>Terms & Conditions</span></a>
-                        <a href="">
+                        <a href="#">
                         <span className='font-shabnam font-bold text-[#655b5b]'>Contact</span></a>
-                        <a href="">
+                        <a href="#">
                         <span className='font-shabnam font-bold text-[#655b5b]'>Home page</span></a>
-                        <a href="">
+                        <a href="#">
                         <span className='font-shabnam font-bold text-[#655b5b]'>Term of use</span></a>
 
                         </div>
@@ -55,13 +55,24 @@ export default function Main() {
 
                 <div className=" w-1/4 h-68 mt-20 bg-red-200">
 
-                    <div className="">
-                        <img className='w-40' src={Logo} alt="" />
-                        <img className='mt-6' src={Text} alt="" />
-                        <img className='mt-6' src={Soshal} alt="" />
+                     <div className="flex flex-col  items-start">
+                        <p className='font-sofia text-xl'>About Us</p>
+                        <img className='mt-5 mb-5' src={Khat} alt="" />
+
+                        <div className="flex flex-col items-start gap-y-2">
+                        <a href="#">
+                        <span className='font-shabnam font-bold text-[#655b5b]'>Help Center</span></a>
+                        <a href="#">
+                        <span className='font-shabnam  font-bold text-[#655b5b]'>Address Store</span></a>
+                        <a href="#">
+                        <span className='font-shabnam font-bold text-[#655b5b]'>Privacy Policy</span></a>
+                        <a href="#">
+                        <span className='font-shabnam font-bold text-[#655b5b]'>Receivers & Amplifiers</span></a>
+                        <a href="#">
+                        <span className='font-shabnam font-bold text-[#655b5b]'>Clothings</span></a>
+
+                        </div>
                     </div>
-
-
 
                 </div>
 
