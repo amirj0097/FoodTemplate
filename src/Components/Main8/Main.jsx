@@ -12,14 +12,13 @@ export default function Main() {
 
         <div className="h-[450px] bg-[#F7F7F7] flex flex-col w-full justify-start ">
 
-            <div className="flex  items-center px-20 gap-3 h-90 w-full bg-amber-300">
+            <div className="flex  items-center px-20 gap-3 h-90 w-full">
 
                 <div className=" w-1/4 h-68 mt-20 bg-red-200">
 
                     <div className="">
                         <img className='w-40' src={Logo} alt="" />
                         <img className='mt-6' src={Text} alt="" />
-                        <img className='mt-6' src={Soshal} alt="" />
                     </div>
 
 
@@ -27,7 +26,7 @@ export default function Main() {
                 </div>
 
 
-                <div className=" w-1/4 h-68 mt-20 bg-red-200">
+                <div className=" w-1/4 h-68 mt-20 ">
 
                     <div className="flex flex-col  items-start">
                         <p className='font-sofia text-xl'>Help & Information</p>
@@ -53,7 +52,7 @@ export default function Main() {
                 </div>
 
 
-                <div className=" w-1/4 h-68 mt-20 bg-red-200">
+                <div className=" w-1/4 h-68 mt-20 ">
 
                      <div className="flex flex-col  items-start">
                         <p className='font-sofia text-xl'>About Us</p>
@@ -77,7 +76,7 @@ export default function Main() {
                 </div>
 
 
-                <div className=" w-1/4 h-68 mt-20 bg-red-200">
+                <div className=" w-1/4 h-68 mt-20 ">
 
                       <div className="flex flex-col  items-start">
                         <p className='font-sofia text-xl'>Categories</p>
@@ -102,7 +101,7 @@ export default function Main() {
                 </div>
                 
 
-                <div className="flex right-0 left-0 absolute mt-90 px-23 justify-between">
+                <div className="flex right-0 left-0 absolute mt-90 px-23 bg-amber-300 justify-between">
 
                     <a href="">
                         <img src={Woodbar} alt="" />
