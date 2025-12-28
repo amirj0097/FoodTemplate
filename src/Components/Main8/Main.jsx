@@ -2,7 +2,7 @@ import Logo from '/src/img/logo.svg'
 import Text from '/src/img/Text_footer.svg'
 import Soshal from '/src/img/Social Media.svg'
 import Woodbar from '/src/img/Footnote.svg'
-
+import Khat from '/src/img/Khat (2).svg'
 
 
 
@@ -29,10 +29,23 @@ export default function Main() {
 
                 <div className=" w-1/4 h-68 mt-20 bg-red-200">
 
-                    <div className="">
-                        <img className='w-40' src={Logo} alt="" />
-                        <img className='mt-6' src={Text} alt="" />
-                        <img className='mt-6' src={Soshal} alt="" />
+                    <div className="flex flex-col  items-start">
+                        <p className='font-sofia text-xl'>Help & Information</p>
+                        <img className='mt-5 mb-5' src={Khat} alt="" />
+
+                        <div className="flex flex-col items-start gap-y-2">
+                        <a href="">
+                        <span className='font-shabnam font-bold text-[#655b5b]'>Pagination</span></a>
+                        <a href="">
+                        <span className='font-shabnam  font-bold text-[#655b5b]'>Terms & Conditions</span></a>
+                        <a href="">
+                        <span className='font-shabnam font-bold text-[#655b5b]'>Contact</span></a>
+                        <a href="">
+                        <span className='font-shabnam font-bold text-[#655b5b]'>Home page</span></a>
+                        <a href="">
+                        <span className='font-shabnam font-bold text-[#655b5b]'>Term of use</span></a>
+
+                        </div>
                     </div>
 
 
@@ -68,12 +81,14 @@ export default function Main() {
 
                 <div className="flex right-0 left-0 absolute mt-90 px-23 justify-between">
 
-                    <div className="">
+                    <a href="">
                         <img src={Woodbar} alt="" />
-                    </div>
+                  </a>
 
                     <div className="">
+                        <a href="">
                         <img src={Woodbar} alt="" />
+                        </a>
                     </div>
 
                 </div>
