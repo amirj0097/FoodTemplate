@@ -11,11 +11,11 @@ export default function Header() {
                 <a href=""><img src="src/img/Logo.svg" alt="" /></a>
 
             <nav className="flex flex-row-reverse gap-8 text-[#888888]">
-                <a className="hover:text-red-600" href="">Page</a>
-                <a className="hover:text-red-600" href="">Blog</a>
-                <a className="hover:text-red-600" href="">Shop</a>
-                <a className="hover:text-red-600" href="">Category</a>
-                <a className="text-red-600 hover:text-red-600 font-semibold" href="">Home +</a>
+                <a className="hover:text-red-600" href="#">Page</a>
+                <a className="hover:text-red-600" href="#">Blog</a>
+                <a className="hover:text-red-600" href="#">Shop</a>
+                <a className="hover:text-red-600" href="#">Category</a>
+                <a className="text-red-600 hover:text-red-600 font-semibold" href="#">Home +</a>
             </nav>
 
             <div className="flex">

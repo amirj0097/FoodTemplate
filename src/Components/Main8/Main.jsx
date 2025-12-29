@@ -1,8 +1,9 @@
 import Logo from '/src/img/logo.svg'
 import Text from '/src/img/Text_footer.svg'
-import Soshal from '/src/img/Social Media.svg'
 import Woodbar from '/src/img/Footnote.svg'
 import Khat from '/src/img/Khat (2).svg'
+import FaceBook from '/src/icon/FaceBooke.svg'
+import Linkdin from '/src/icon/Linkdin.svg'
 
 
 
@@ -19,6 +20,15 @@ export default function Main() {
                     <div className="">
                         <img className='w-40' src={Logo} alt="" />
                         <img className='mt-6' src={Text} alt="" />
+                        <div className="flex gap-3 mt-5">
+
+                            <a href="#">
+                                <img src={FaceBook} alt="" />
+                            </a>
+                            <a href="#">
+                                <img src={Linkdin} alt="" />
+                                </a>
+                        </div>
                     </div>
 
 
