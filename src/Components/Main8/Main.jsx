@@ -6,6 +6,7 @@ import FaceBook from '/src/icon/FaceBooke.svg'
 import Linkdin from '/src/icon/Linkdin.svg'
 import Instagram from '/src/icon/instagram.svg'
 import Rated from '/src/icon/reted simplified.svg'
+import Dentmind from '/src/icon/dent mind (2).svg'
 
 
 export default function Main() {
@@ -34,6 +35,9 @@ export default function Main() {
                                 </a>
                             <a className='flex' href="#">
                                 <img src={Rated} alt="" />
+                                </a>
+                            <a className='flex' href="#">
+                                <img src={Dentmind} alt="" />
                                 </a>
                         </div>
                     </div>
