@@ -4,6 +4,7 @@ import Woodbar from '/src/img/Footnote.svg'
 import Khat from '/src/img/Khat (2).svg'
 import FaceBook from '/src/icon/FaceBooke.svg'
 import Linkdin from '/src/icon/Linkdin.svg'
+import Instagram from '/src/icon/instagram.svg'
 
 
 
@@ -27,6 +28,9 @@ export default function Main() {
                             </a>
                             <a href="#">
                                 <img src={Linkdin} alt="" />
+                                </a>
+                            <a href="#">
+                                <img src={Instagram} alt="" />
                                 </a>
                         </div>
                     </div>
