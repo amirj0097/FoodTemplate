@@ -129,7 +129,7 @@ export default function Main() {
                   <img
                     className="ml-auto -mt-5 mr-auto w-10"
                     src={slide.goolIcon}
-                    alt="gool"
+                    alt=""
                   />
                 </div>
               </div>
