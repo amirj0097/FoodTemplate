@@ -129,7 +129,7 @@ export default function Main() {
                 </div>
 
 
-                <div className="flex right-0 left-0 absolute mt-90 px-23 justify-between">
+                <div className="flex right-0 left-0 absolute mt-90 px-21 justify-between">
 
                     <a href="">
                         <img src={Woodbar} alt="" />

@@ -164,16 +164,16 @@ const ProductShowcase = () => {
   // کامپوننت ستاره‌ها
   const StarRating = ({ rating }) => {
     return (
-      <div className="flex items-center">
+      <div className="flex gap-0.5 items-center">
         {[...Array(5)].map((_, index) => (
           <span
             key={index}
-            className={`text-xs ${index < rating ? 'text-yellow-400' : 'text-gray-300'}`}
+            className={`text-xs rounded-2xl ${index < rating ? 'text-[#E21A43]' : 'text-[#E21A434D]'}`}
           >
             ★
           </span>
         ))}
-        <span className="text-gray-500 text-xs ml-1">({rating}.0)</span>
+        <span className="text-[#E21A43] text-xs ml-1">({rating}.0)</span>
       </div>
     );
   };
@@ -310,7 +310,7 @@ const ProductShowcase = () => {
                       </div>
 
                       {/* دکمه خرید */}
-                      <button type='submit' className="w-[73%] cursor-pointer text-[#E21A43]  border border-[#E21A43] text-xs  py-2.5 transition duration-300">
+                      <button type='submit' className="w-[73%] cursor-pointer text-[#E21A43] hover:bg-[#E21A43] hover:text-white  border border-[#E21A43] text-xs  py-2.5 transition duration-300">
                         Buy Now
                       </button>
 

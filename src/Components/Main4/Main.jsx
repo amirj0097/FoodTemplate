@@ -1,8 +1,8 @@
 import React, { useState, useRef, useEffect } from 'react';
-import fff from '/src/img/Noone.svg';
-import fff2 from '/src/img/bastanee.svg';
-import fff4 from '/src/img/comboze.svg';
-import fff3 from '/src/img/sarfasl(2).svg'
+import Noone from '/src/img/Noone.svg';
+import Bastanee from '/src/img/bastanee.svg';
+import Comboze from '/src/img/comboze.svg';
+import Sarfasl from '/src/img/sarfasl(2).svg'
 import ddd from '/src/img/textnoone.svg';
 import ddd2 from '/src/img/textbastanee.svg';
 import ddd4 from '/src/img/textcomboze.svg';
@@ -33,7 +33,7 @@ const BestSellingSlider = () => {
         originalPrice: "$40.00",
         currentPrice: "$30.00",
         weight: "(1kg)",
-        img: fff,
+        img: Noone,
         icon1: Mosbat,
         icon2: Charkhesh,
         icon3: Like,
@@ -45,7 +45,7 @@ const BestSellingSlider = () => {
         originalPrice: "$20.00",
         currentPrice: "$15.00",
         weight: "(45ml)",
-        img: fff2,
+        img: Bastanee,
 
       },
       {
@@ -54,7 +54,7 @@ const BestSellingSlider = () => {
         originalPrice: "$25.00",
         currentPrice: "$15.00",
         weight: "(1.5kg)",
-        img: fff3,
+        img: Sarfasl,
       },
       {
         id: 4,
@@ -62,26 +62,26 @@ const BestSellingSlider = () => {
         originalPrice: "$45.00",
         currentPrice: "$35.00",
         weight: "(1.5kg)",
-        img: fff4,
+        img: Comboze,
       }
     ],
     Vegetable: [
       {
         id: 5,
-        description: ddd,
+        description: ddd3,
         originalPrice: "$40.00",
         currentPrice: "$30.00",
         weight: "(1kg)",
-        img: fff,
+        img: Sarfasl,
 
       },
       {
         id: 6,
-        description: ddd2,
+        description: ddd3,
         originalPrice: "$20.00",
         currentPrice: "$15.00",
         weight: "(45ml)",
-        img: fff2,
+        img: Sarfasl,
 
       },
       {
@@ -90,25 +90,25 @@ const BestSellingSlider = () => {
         originalPrice: "$25.00",
         currentPrice: "$15.00",
         weight: "(1.5kg)",
-        img: fff3,
+        img: Sarfasl,
       },
       {
         id: 8,
-        description: ddd4,
+        description: ddd3,
         originalPrice: "$45.00",
         currentPrice: "$35.00",
         weight: "(1.5kg)",
-        img: fff4,
+        img: Sarfasl,
       }
     ],
     Meal: [
       {
         id: 9,
-        description: ddd,
+        description: ddd2,
         originalPrice: "$40.00",
         currentPrice: "$30.00",
         weight: "(1kg)",
-        img: fff,
+        img: Bastanee,
 
       },
       {
@@ -117,52 +117,52 @@ const BestSellingSlider = () => {
         originalPrice: "$20.00",
         currentPrice: "$15.00",
         weight: "(45ml)",
-        img: fff2,
+        img: Bastanee,
 
       },
       {
         id: 11,
-        description: ddd3,
+        description: ddd2,
         originalPrice: "$25.00",
         currentPrice: "$15.00",
         weight: "(1.5kg)",
-        img: fff3,
+        img: Bastanee,
       },
       {
         id: 12,
-        description: ddd4,
+        description: ddd2,
         originalPrice: "$45.00",
         currentPrice: "$35.00",
         weight: "(1.5kg)",
-        img: fff4,
+        img: Bastanee,
       }
     ],
     Milk: [
       {
         id: 13,
-        description: ddd,
+        description: ddd4,
         originalPrice: "$40.00",
         currentPrice: "$30.00",
         weight: "(1kg)",
-        img: fff,
+        img: Comboze,
 
       },
       {
         id: 14,
-        description: ddd2,
+        description: ddd4,
         originalPrice: "$20.00",
         currentPrice: "$15.00",
         weight: "(45ml)",
-        img: fff2,
+        img: Comboze,
 
       },
       {
         id: 15,
-        description: ddd3,
+        description: ddd4,
         originalPrice: "$25.00",
         currentPrice: "$15.00",
         weight: "(1.5kg)",
-        img: fff3,
+        img: Comboze,
       },
       {
         id: 16,
@@ -170,25 +170,25 @@ const BestSellingSlider = () => {
         originalPrice: "$45.00",
         currentPrice: "$35.00",
         weight: "(1.5kg)",
-        img: fff4,
+        img: Comboze,
       }
     ],
     Cakes: [
       {
         id: 17,
-        description: ddd,
+        description: ddd3,
         originalPrice: "$40.00",
         currentPrice: "$30.00",
         weight: "(1kg)",
-        img: fff,
+        img: Sarfasl,
       },
       {
         id: 18,
-        description: ddd2,
+        description: ddd3,
         originalPrice: "$20.00",
         currentPrice: "$15.00",
         weight: "(45ml)",
-        img: fff2,
+        img: Sarfasl,
 
       },
       {
@@ -197,15 +197,15 @@ const BestSellingSlider = () => {
         originalPrice: "$25.00",
         currentPrice: "$15.00",
         weight: "(1.5kg)",
-        img: fff3,
+        img: Sarfasl,
       },
       {
         id: 20,
-        description: ddd4,
+        description: ddd3,
         originalPrice: "$45.00",
         currentPrice: "$35.00",
         weight: "(1.5kg)",
-        img: fff4,
+        img: Sarfasl,
       }
     ],
     Drinks: [
@@ -215,33 +215,33 @@ const BestSellingSlider = () => {
         originalPrice: "$40.00",
         currentPrice: "$30.00",
         weight: "(1kg)",
-        img: fff,
+        img: Noone,
 
       },
       {
         id: 22,
-        description: ddd2,
+        description: ddd,
         originalPrice: "$20.00",
         currentPrice: "$15.00",
         weight: "(45ml)",
-        img: fff2,
+        img: Noone,
 
       },
       {
         id: 23,
-        description: ddd3,
+        description: ddd,
         originalPrice: "$25.00",
         currentPrice: "$15.00",
         weight: "(1.5kg)",
-        img: fff3,
+        img: Noone,
       },
       {
         id: 24,
-        description: ddd4,
+        description: ddd,
         originalPrice: "$45.00",
         currentPrice: "$35.00",
         weight: "(1.5kg)",
-        img: fff4,
+        img: Noone,
       }
     ]
   };

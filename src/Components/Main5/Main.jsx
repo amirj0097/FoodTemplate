@@ -37,7 +37,7 @@ export default function Main() {
 
                 </div>
 
-                <button className='text-[#E21A43] border border-[#E21A43] py-2 px-4 font-semibold flex mt-8.5'>Find Now</button>
+                <button className='text-[#E21A43] border border-[#E21A43] cursor-pointer py-2 px-4 font-semibold flex mt-8.5'>Find Now</button>
 
             </div>
 

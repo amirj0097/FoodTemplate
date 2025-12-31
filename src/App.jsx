@@ -13,7 +13,7 @@ function App() {
 
   return (
 
-    <div className="w-full items-start text-right h-1000">
+    <div className="w-full items-start text-right min-h-[286vh]">
 
       <Header />
 
