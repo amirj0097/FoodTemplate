@@ -102,7 +102,10 @@ export default function Main() {
                   <img className="" src="src/icon/Rang.svg" alt="Rang" />
                 </span>
 
-                <img src={slide.title} alt="Title" />
+                <p className='font-sofia text-6xl'>All You Need For</p>
+
+                <p className='font-sofia mt-6 text-6xl before:content-arrow before:bg-amber-300 before:w-29 before:h-12 '>perfect Breakfast</p>
+
                 <img className="ml-0 mt-5" src={slide.text} alt="Text" />
 
 
