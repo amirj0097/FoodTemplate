@@ -5,7 +5,7 @@ export default function Main() {
   const slides = [
     {
       id: 1,
-      title: "src/img/Title.svg",
+      
       text: "src/img/Text.svg",
       image: "src/img/Sushee.svg",
       button1Text: "BUY NOW",
@@ -15,7 +15,6 @@ export default function Main() {
     },
     {
       id: 2,
-      title: "src/img/Title.svg", // می‌توانید فایل‌های مختلف بگذارید
       text: "src/img/Text.svg",
       image: "https://images.unsplash.com/photo-1504674900247-0877df9cc836?w=600",
       button1Text: "ORDER NOW",
@@ -24,7 +23,6 @@ export default function Main() {
     },
     {
       id: 3,
-      title: "src/img/Title.svg",
       text: "src/img/Text.svg",
       image: "https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?w-600",
       button1Text: "SHOP NOW",
@@ -106,9 +104,8 @@ export default function Main() {
 
                 <p className='font-sofia mt-6 text-6xl z-10 relative before:content-arrow before:bg-[#E21A434D] before:-z-70 before:absolute before:right-0 before:w-67 before:bottom-0 before:h-5.5 '>perfect <span className='text-white text-2xl'>ن</span> Breakfast</p>
 
-                <img className="ml-0 mt-8" src={slide.text} alt="Text" />
-
-
+                  <p className='ml-0 mt-8'>Lorem lpsum is simply dummy text of the printing and typesetting industry.</p>
+                  <p>Lorem lpsum has been the industry's</p>
 
                 {/* دکمه‌های اصلی */}
                 <div className="flex w-full h-30 gap-6 mt-5">
