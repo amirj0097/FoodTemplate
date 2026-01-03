@@ -20,7 +20,7 @@ export default function Main() {
       image: "https://images.unsplash.com/photo-1504674900247-0877df9cc836?w=600",
       button1Text: "ORDER NOW",
       button2Text: "VIEW MENU",
-      goolIcon: "src/icon/gool.svg",
+      goolIcon: "src/icon/gool.svg",    
     },
     {
       id: 3,
@@ -102,11 +102,11 @@ export default function Main() {
                   <img className="" src="src/icon/Rang.svg" alt="Rang" />
                 </span>
 
-                <p className='font-sofia text-6xl'>All You Need For</p>
+                <p className='font-sofia -mt-5 text-6xl'>All You Need For</p>
 
-                <p className='font-sofia mt-6 text-6xl before:content-arrow before:bg-amber-300 before:w-29 before:h-12 '>perfect Breakfast</p>
+                <p className='font-sofia mt-6 text-6xl z-10 relative before:content-arrow before:bg-[#E21A434D] before:-z-70 before:absolute before:right-0 before:w-67 before:bottom-0 before:h-5.5 '>perfect <span className='text-white text-2xl'>ن</span> Breakfast</p>
 
-                <img className="ml-0 mt-5" src={slide.text} alt="Text" />
+                <img className="ml-0 mt-8" src={slide.text} alt="Text" />
 
 
 
