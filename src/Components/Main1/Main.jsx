@@ -104,8 +104,8 @@ export default function Main() {
 
                 <p className='font-sofia mt-6 text-6xl z-10 relative before:content-arrow before:bg-[#E21A434D] before:-z-70 before:absolute before:right-0 before:w-67 before:bottom-0 before:h-5.5 '>perfect <span className='text-white text-2xl'>ن</span> Breakfast</p>
 
-                  <p className='ml-0 mt-8'>Lorem lpsum is simply dummy text of the printing and typesetting industry.</p>
-                  <p>Lorem lpsum has been the industry's</p>
+                  <p className='ml-0 mt-8 Light text-[#666666]'>Lorem lpsum is simply dummy text of the printing and typesetting industry.</p>
+                  <p className='text-[#666666] Light'>Lorem lpsum has been the industry's standard dummy text ever since the 1500</p>
 
                 {/* دکمه‌های اصلی */}
                 <div className="flex w-full h-30 gap-6 mt-5">
