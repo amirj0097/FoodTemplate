@@ -10,11 +10,11 @@ export default function ProductCard(){
       <img className="z-6" src='src/img/sarfasl.svg' alt="" />
       <img className="-ml-13 h-93 mt-5" src='src/img/text-sarfasl.svg' alt="" />
     </div>
-    <img src='src/img/Title-sarfasl.svg' alt="" />
+<p className="font-sofia text-[#333333] text-[32px]">Fresh Vegetable</p>
     <a href="">  
       <div className="bg-[#e21a422b] mt-3 px-6.5 py-4">
-        <img src='src/img/Order Now.svg' alt="Order Now" />
-      </div>
+          <p className="font-semibold text-[#E21A43]">Order Now</p>
+        </div>
     </a>
   
   </div>
