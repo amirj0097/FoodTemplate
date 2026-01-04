@@ -18,7 +18,7 @@ const ProductSlider = () => {
   const products = [
     {
       id: 1, // اضافه کردن id
-      description: ddd,
+      description: "bakery bread viennoiserie...",
       originalPrice: "$49.00",
       currentPrice: "$30.00",
       weight: "(1kg)",
@@ -30,7 +30,7 @@ const ProductSlider = () => {
     },
     {
       id: 2, // اضافه کردن id
-      description: ddd2,
+      description: "ICE cream cones sundae...",
       originalPrice: "$65.00",
       currentPrice: "$45.00",
       weight: "(450ml)",
@@ -38,7 +38,7 @@ const ProductSlider = () => {
     },
     {
       id: 3, // اضافه کردن id
-      description: ddd3,
+      description: "Papaya seed auglis fruit...",
       originalPrice: "$25.00",
       currentPrice: "$18.00",
       weight: "(1.5kg)",
@@ -46,7 +46,7 @@ const ProductSlider = () => {
     },
     {
       id: 4, // اضافه کردن id
-      description: ddd3,
+      description: "Papaya seed auglis fruit...",
       originalPrice: "$29.00",
       currentPrice: "$15.00",
       weight: "(1kg)",
@@ -54,7 +54,7 @@ const ProductSlider = () => {
     },
     {
       id: 5, // اضافه کردن id
-      description: ddd2,
+      description: "ICE cream cones sundae...",
       originalPrice: "$45.00",
       currentPrice: "$35.00",
       weight: "(450ml)",
@@ -62,7 +62,7 @@ const ProductSlider = () => {
     },
     {
       id: 6, // اضافه کردن id
-      description: ddd3,
+      description: "Papaya seed auglis fruit...",
       originalPrice: "$38.00",
       currentPrice: "$28.00",
       weight: "(1.5kg)",
@@ -143,8 +143,8 @@ const ProductSlider = () => {
                             </div>
                           )}
 
-                          <div className="absolute mt-70 w-50">
-                            <img className='' src={product.description} alt="" />
+                          <div className="absolute mt-68 flex w-50">
+                              <p className='text-[#666666]'>{product.description}</p>
                           </div>
 
                           <div className="flex w-50 absolute mt-76 gap-3">
