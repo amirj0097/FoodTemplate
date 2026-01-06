@@ -273,18 +273,18 @@ const BestSellingSlider = () => {
     <div className=" w-full py-15 bg-[#F7F7F7]   font-sans" ref={containerRef}>
       {/* عنوان اصلی */}
       <span className="flex justify-center mb-5">
-        <img src="src/img/Title main4.svg" alt="" />
+        <p className=' relative text-[#333333] font-semibold text-2xl before:content-arrow  before:bg-[#666666]  before:absolute before:-left-12 before:justify-center before:w-8 before:flex before:top-4 before:h-1   after:content-arrow after:bg-[#666666]  after:absolute  after:w-8 after:flex after:-right-12 after:top-4 after:h-1'>Best Selling Product</p>
       </span>
 
       {/* لیست دسته‌بندی‌ها */}
       <div className="mb-8  flex justify-center items-center">
-        <h2 className="text-lg font-semibold text-gray-800 mb-2">Fruits</h2>
+        <h2 className="text-lg  font-semibold text-gray-800 mb-2">Fruits</h2>
         <div className="flex gap-5  space-y-1 ml-4">
           {categories.filter(cat => cat !== 'Fruits').map((category) => (
             <button
               key={category}
               onClick={() => setActiveCategory(category)}
-              className={`text-left text-gray-700 hover:text-gray-900 transition-colors ${activeCategory === category ? 'font-bold text-blue-600 text-lg' : ''
+              className={`text-left cursor-pointer text-gray-700 hover:text-gray-900 transition-colors ${activeCategory === category ? 'font-bold text-blue-600 text-lg' : ''
                 }`}
             >
               {category}
