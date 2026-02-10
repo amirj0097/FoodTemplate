@@ -2,9 +2,6 @@ import React, { useState } from 'react';
 import fff from '/src/img/Noone.svg';
 import fff2 from '/src/img/bastanee.svg';
 import fff3 from '/src/img/comboze.svg';
-import ddd from '/src/img/textnoone.svg';
-import ddd2 from '/src/img/textbastanee.svg';
-import ddd3 from '/src/img/textcomboze.svg';
 import Mosbat from '/src/icon/+.svg';
 import Charkhesh from '/src/icon/charkhesh.svg';
 import Like from '/src/icon/Like.svg';
@@ -105,13 +102,13 @@ const ProductSlider = () => {
             <div className="flex -mr-2 gap-4">
               <button
                 onClick={prevSlide}
-                className="w-10 h-10 text-[#E21A43] border border-[#E21A43] flex items-center justify-center transition-all duration-300 hover:scale-110 shadow-lg"
+                className="w-10 h-10 border border-[#E21A43] flex items-center justify-center transition-all duration-300 hover:scale-110 "
               >
                 <img className='' src={leftsmall} alt="" />
               </button>
               <button
                 onClick={nextSlide}
-                className="w-10 h-10 bg-[#E21A43] text-white flex items-center justify-center transition-all duration-300 hover:scale-110 shadow-lg"
+                className="w-10 h-10 bg-[#E21A43] flex items-center justify-center transition-all duration-300 hover:scale-110"
               >
                 <img className='' src={rightsmall} alt="" />
               </button>

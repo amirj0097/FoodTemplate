@@ -3,10 +3,6 @@ import Noone from '/src/img/Noone.svg';
 import Bastanee from '/src/img/bastanee.svg';
 import Comboze from '/src/img/comboze.svg';
 import Sarfasl from '/src/img/sarfasl(2).svg'
-import ddd from '/src/img/textnoone.svg';
-import ddd2 from '/src/img/textbastanee.svg';
-import ddd4 from '/src/img/textcomboze.svg';
-import ddd3 from '/src/img/textsarfasl (2).svg';
 import Mosbat from '/src/icon/+.svg';
 import Charkhesh from '/src/icon/charkhesh.svg';
 import Like from '/src/icon/Like.svg';
@@ -29,7 +25,7 @@ const BestSellingSlider = () => {
     Fruits: [
       {
         id: 1,
-        description: ddd,
+        description: ' bakery bread viennoiserie...',
         originalPrice: "$40.00",
         currentPrice: "$30.00",
         weight: "(1kg)",
@@ -41,7 +37,7 @@ const BestSellingSlider = () => {
       },
       {
         id: 2,
-        description: ddd2,
+        description: "ICE cream cones sundae...",
         originalPrice: "$20.00",
         currentPrice: "$15.00",
         weight: "(45ml)",
@@ -50,7 +46,7 @@ const BestSellingSlider = () => {
       },
       {
         id: 3,
-        description: ddd3,
+        description: "fresh Vegetable",
         originalPrice: "$25.00",
         currentPrice: "$15.00",
         weight: "(1.5kg)",
@@ -58,7 +54,7 @@ const BestSellingSlider = () => {
       },
       {
         id: 4,
-        description: ddd4,
+        description: "Papaya seed auglis fruit...",
         originalPrice: "$45.00",
         currentPrice: "$35.00",
         weight: "(1.5kg)",
@@ -68,7 +64,7 @@ const BestSellingSlider = () => {
     Vegetable: [
       {
         id: 5,
-        description: ddd3,
+        description:  "fresh Vegetable",
         originalPrice: "$40.00",
         currentPrice: "$30.00",
         weight: "(1kg)",
@@ -77,7 +73,7 @@ const BestSellingSlider = () => {
       },
       {
         id: 6,
-        description: ddd3,
+        description:  "fresh Vegetable",
         originalPrice: "$20.00",
         currentPrice: "$15.00",
         weight: "(45ml)",
@@ -86,7 +82,7 @@ const BestSellingSlider = () => {
       },
       {
         id: 7,
-        description: ddd3,
+        description:  "fresh Vegetable",
         originalPrice: "$25.00",
         currentPrice: "$15.00",
         weight: "(1.5kg)",
@@ -94,7 +90,7 @@ const BestSellingSlider = () => {
       },
       {
         id: 8,
-        description: ddd3,
+        description:  "fresh Vegetable",
         originalPrice: "$45.00",
         currentPrice: "$35.00",
         weight: "(1.5kg)",
@@ -104,7 +100,7 @@ const BestSellingSlider = () => {
     Meal: [
       {
         id: 9,
-        description: ddd2,
+        description: "ICE cream cones sundae...",
         originalPrice: "$40.00",
         currentPrice: "$30.00",
         weight: "(1kg)",
@@ -113,7 +109,7 @@ const BestSellingSlider = () => {
       },
       {
         id: 10,
-        description: ddd2,
+        description: "ICE cream cones sundae...",
         originalPrice: "$20.00",
         currentPrice: "$15.00",
         weight: "(45ml)",
@@ -122,7 +118,7 @@ const BestSellingSlider = () => {
       },
       {
         id: 11,
-        description: ddd2,
+        description: "ICE cream cones sundae...",
         originalPrice: "$25.00",
         currentPrice: "$15.00",
         weight: "(1.5kg)",
@@ -130,7 +126,7 @@ const BestSellingSlider = () => {
       },
       {
         id: 12,
-        description: ddd2,
+        description: "ICE cream cones sundae...",
         originalPrice: "$45.00",
         currentPrice: "$35.00",
         weight: "(1.5kg)",
@@ -140,7 +136,7 @@ const BestSellingSlider = () => {
     Milk: [
       {
         id: 13,
-        description: ddd4,
+        description: "Papaya seed auglis fruit...",
         originalPrice: "$40.00",
         currentPrice: "$30.00",
         weight: "(1kg)",
@@ -149,7 +145,7 @@ const BestSellingSlider = () => {
       },
       {
         id: 14,
-        description: ddd4,
+        description: "Papaya seed auglis fruit...",
         originalPrice: "$20.00",
         currentPrice: "$15.00",
         weight: "(45ml)",
@@ -158,7 +154,7 @@ const BestSellingSlider = () => {
       },
       {
         id: 15,
-        description: ddd4,
+        description: "Papaya seed auglis fruit...",
         originalPrice: "$25.00",
         currentPrice: "$15.00",
         weight: "(1.5kg)",
@@ -166,7 +162,7 @@ const BestSellingSlider = () => {
       },
       {
         id: 16,
-        description: ddd4,
+        description: "Papaya seed auglis fruit...",
         originalPrice: "$45.00",
         currentPrice: "$35.00",
         weight: "(1.5kg)",
@@ -176,7 +172,7 @@ const BestSellingSlider = () => {
     Cakes: [
       {
         id: 17,
-        description: ddd3,
+        description:  "fresh Vegetable",
         originalPrice: "$40.00",
         currentPrice: "$30.00",
         weight: "(1kg)",
@@ -184,7 +180,7 @@ const BestSellingSlider = () => {
       },
       {
         id: 18,
-        description: ddd3,
+        description:  "fresh Vegetable",
         originalPrice: "$20.00",
         currentPrice: "$15.00",
         weight: "(45ml)",
@@ -193,7 +189,7 @@ const BestSellingSlider = () => {
       },
       {
         id: 19,
-        description: ddd3,
+        description:  "fresh Vegetable",
         originalPrice: "$25.00",
         currentPrice: "$15.00",
         weight: "(1.5kg)",
@@ -201,7 +197,7 @@ const BestSellingSlider = () => {
       },
       {
         id: 20,
-        description: ddd3,
+        description:  "fresh Vegetable",
         originalPrice: "$45.00",
         currentPrice: "$35.00",
         weight: "(1.5kg)",
@@ -211,7 +207,7 @@ const BestSellingSlider = () => {
     Drinks: [
       {
         id: 21,
-        description: ddd,
+        description: ' bakery bread viennoiserie...',
         originalPrice: "$40.00",
         currentPrice: "$30.00",
         weight: "(1kg)",
@@ -220,7 +216,7 @@ const BestSellingSlider = () => {
       },
       {
         id: 22,
-        description: ddd,
+        description: ' bakery bread viennoiserie...',
         originalPrice: "$20.00",
         currentPrice: "$15.00",
         weight: "(45ml)",
@@ -229,7 +225,7 @@ const BestSellingSlider = () => {
       },
       {
         id: 23,
-        description: ddd,
+        description: ' bakery bread viennoiserie...',
         originalPrice: "$25.00",
         currentPrice: "$15.00",
         weight: "(1.5kg)",
@@ -237,7 +233,7 @@ const BestSellingSlider = () => {
       },
       {
         id: 24,
-        description: ddd,
+        description: ' bakery bread viennoiserie...',
         originalPrice: "$45.00",
         currentPrice: "$35.00",
         weight: "(1.5kg)",
@@ -314,8 +310,8 @@ const BestSellingSlider = () => {
               </div>
             )}
 
-            <div className="absolute mt-70 w-50">
-              <img className='' src={product.description} alt="" />
+            <div className="absolute flex mt-69 w-52">              
+              <p className='text-[#666666]'>{product.description}</p>
             </div>
 
             <div className="flex w-50 absolute mt-76 gap-3">

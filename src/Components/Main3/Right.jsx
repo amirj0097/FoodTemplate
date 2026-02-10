@@ -12,7 +12,7 @@ export default function Right(){
                     <span className='text-3xl font-semibold'>$18.00</span>
                 </div>
                 <div className="flex">
-                    <button className='font-semibold cursor-pointer  text-[#E21A43] border border-[#E21A43] py-2 px-3'>SHOP NOW</button>
+                    <button className='font-semibold transition duration-300 ease-in-out cursor-pointer  text-[#E21A43] hover:text-white hover:bg-[#E21A43]  border border-[#E21A43] py-2 px-3'>SHOP NOW</button>
                 </div>
             </div>
     )

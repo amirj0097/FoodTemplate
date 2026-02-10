@@ -189,7 +189,7 @@ const ProductShowcase = () => {
   );
 
   return (
-    <div className="h-[730px] flex  bg-gray-50 items-center">
+    <div className="h-[730px] flex  bg-[#F7F7F7] items-center">
       <div className="max-w-7xl mx-auto">
         {/* عنوان اصلی */}
 
@@ -310,7 +310,7 @@ const ProductShowcase = () => {
                       </div>
 
                       {/* دکمه خرید */}
-                      <button type='submit' className="w-[73%] cursor-pointer text-[#E21A43] hover:bg-[#E21A43] hover:text-white  border border-[#E21A43] text-xs  py-2.5 transition duration-300">
+                      <button type='submit' className="w-[73%] cursor-pointer text-[#E21A43] hover:bg-[#E21A43] hover:text-white  border border-[#E21A43] text-xs font-semibold  py-2.5 transition duration-300">
                         Buy Now
                       </button>
 
