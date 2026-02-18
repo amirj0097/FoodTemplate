@@ -1,5 +1,7 @@
 
 
+
+
 export default function Categories(){
     return(
              <div className="flex flex-row-reverse absolute bg-white shadow-xl shadow-gray-3  00 items-center justify-center gap-19 py-8 -mt-15 ml-50  w-[70%]  px-8">
